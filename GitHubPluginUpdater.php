@@ -6,7 +6,7 @@
 	 * Time: 9:41 AM
 	 */
 
-class BFIGitHubPluginUpdater {
+class GitHubPluginUpdater {
 	private $slug;
 	private $pluginData;
 	private $username;
