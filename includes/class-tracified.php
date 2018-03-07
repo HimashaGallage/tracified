@@ -84,6 +84,7 @@ class Tracified {
 
 		$this->loader->add_action('admin_menu',  $plugin_admin,'tracified_plugin_setup_menu');
 		$this->loader->add_action('admin_menu', $plugin_admin,'tracified_plugin_setup_menu');
+		$this->loader->add_action('admin_init', $plugin_admin, 'options_update');
 
 
 	}
